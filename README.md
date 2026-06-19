@@ -6,23 +6,26 @@ A public archive of **192 original FL Studio projects** (2019–2026) by **Misum
 
 > 🔎 **[Browse & filter everything in the interactive catalog →](https://misumiyuko.github.io/MY-FL-Projects/)** — live search and filtering by hours, date, year, and collection, with an EN/中文 toggle.
 
-## How to use
-You don't need to download anything just to look around — every project is listed on this page. When you find one you like, grab its **bundle** (the `.flp` *with* its samples) from the Releases page.
+## How to Use
 
-**1. Find a project — pick whichever is easier:**
-- **Browse here** — scroll the year-by-year catalog below. Each row shows the collection, date, work-time, tempo, and third-party plugins, so you can tell what a project is before downloading anything.
-- **Or download the whole list** — open [`catalog.csv`](catalog.csv) in Excel / Google Sheets to search, sort, and filter all 192 projects in one file.
+**Method 1:**
+- Go to **https://misumiyuko.github.io/MY-FL-Projects/** to browse all project files. Each row lists the collection, date, production time, tempo, and third-party plugins, supporting detailed search, filtering, and sorting.
 
-**2. Download the bundle you want:**
-- Go to the [**Releases**](../../releases) page and open the latest release — the **Assets** section lists one `.zip` per project.
-- Press **Ctrl+F** and type the project name (or its `YEAR_Name`, e.g. `2024_FeelingCool`) to jump straight to it, then click to download.
-- Each bundle has the **`.flp` plus its `Samples/`** folder, so the project opens complete in FL Studio.
+**Method 2:**
+- Scroll down directly or use **Ctrl+F** to find the file you want (no filtering or sorting here).
+- Once found, open the [**Releases**](../../releases) page and go to the latest release — in the **Assets** section, each project is a `.zip` file.
+- Press **Ctrl+F** and enter the project name (or its `YEAR_Name`, e.g. `2024_FeelingCool`) to jump straight to it, then click to download.
 
-> The bare `.flp` files under `projects/<year>/` are only for a quick peek while browsing on GitHub — a `.flp` on its own won't play without its samples, so for actual use always grab the bundle from Releases.
+**Method 3:**
+- **Download the complete catalog directly** — open [`catalog.csv`](catalog.csv) with Excel / Google Sheets to search, sort, and filter all 192 projects.
 
-**Good to know:**
-- The sample paths inside each `.flp` point to an old drive, so FL may prompt once — it then auto-finds everything by filename inside the bundled `Samples/` folder.
-- The **3rd-party plugins** column lists only external VSTs; FL's own stock plugins aren't shown (you already have those if you run FL Studio).
+> **Please note!** The standalone `.flp` files under `projects/<year>/` are only for quick preview/browsing on GitHub — a standalone `.flp` lacks samples and cannot play normally; for actual use, make sure you downloaded the zip archive.
+
+## So what do you do after downloading the zip archive?
+1. Extract it!
+2. Double-click the `.flp` file (requires **FL Studio 2025**).
+3. FL will usually ask where to find the samples for this file — choose the `Samples` folder inside the unzipped package.
+4. You're all set. Any missing third-party plugins you'll need to download yourself. Feel free to email me with any questions at misuyukodesu@gmail.com.
 
 ## License
 Original works © Misumi Yuko, released under **CC BY 4.0** (credit appreciated). Third-party samples and plugins remain their owners'. Remixes/covers are non-commercial fan works. See [LICENSE](LICENSE).
